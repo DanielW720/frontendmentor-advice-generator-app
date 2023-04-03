@@ -8,3 +8,13 @@
     box-shadow: 1.5rem 1.5rem 0rem 3rem hsla(215, 26%, 9%, 0.055),
         2rem 2rem 0rem hsla(215, 26%, 9%, 0.09);
 }
+
+
+@media (min-width: 1080px) {
+
+    .card {
+        max-width: none;
+        width: 500px;
+    }
+
+}

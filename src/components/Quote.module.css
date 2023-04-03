@@ -14,6 +14,10 @@ p {
     line-height: 2.5rem;
 }
 
+.imgDesktop {
+    display: none;
+}
+
 .endOfCard {
     height: 70px;
     position: relative;
@@ -39,4 +43,21 @@ button {
 
 button:hover {
     box-shadow: 0rem 0rem 2.5rem 0px var(--neongreen);
+}
+
+@media (min-width: 1080px) {
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgMobile {
+        display: none;
+    }
+
+    .imgDesktop {
+        display: block;
+    }
+
 }
