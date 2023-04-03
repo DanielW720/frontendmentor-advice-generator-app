@@ -3,9 +3,12 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <div className="App">
-      <Quote />
-    </div>
+    <main>
+      <div className="App">
+        <h1></h1>
+        <Quote />
+      </div>
+    </main>
   );
 }
 
