@@ -8,7 +8,7 @@ import patternDividerDesktop from './../images/pattern-divider-desktop.svg';
 const adviceSlipEndpoint = 'https://api.adviceslip.com/advice';
 
 const Quote = () => {
-    const [advice, setAdvice] = useState();
+    const [advice, setAdvice] = useState({ "slip": { "id": "", "advice": "" } });
 
     const handleDiceRoll = async () => {
         const response = await fetch(adviceSlipEndpoint);
