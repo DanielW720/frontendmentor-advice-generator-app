@@ -17,9 +17,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background-color: var(--darkgrayishblue);
-}
-
-p {
-  font-size: 28px;
+  background-color: var(--darkblue);
 }

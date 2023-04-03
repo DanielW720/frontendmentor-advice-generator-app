@@ -1,0 +1,10 @@
+.card {
+    background-color: var(--darkgrayishblue);
+    max-width: 375px;
+    border-radius: 15px;
+    color: var(--lightcyan);
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 1.5rem 1.5rem 0rem 3rem hsla(215, 26%, 9%, 0.055),
+        2rem 2rem 0rem hsla(215, 26%, 9%, 0.09);
+}
